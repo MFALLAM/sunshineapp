@@ -9,6 +9,8 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        this.getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
