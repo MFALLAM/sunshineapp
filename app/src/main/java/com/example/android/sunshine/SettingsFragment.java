@@ -15,4 +15,5 @@ public class SettingsFragment extends PreferenceFragmentCompat implements
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 
     }
+
 }
